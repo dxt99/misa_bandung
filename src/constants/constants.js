@@ -142,5 +142,5 @@ export const projects = [
     source: 'https://goo.gl/maps/kwWcoWJ47ex9Q9Um8',
     visit: 'http://www.gerejamahasiswabandung.id/gema/',
     id: 14,
-  },
+  }
 ];
