@@ -5,6 +5,10 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
+const openInNewTab = url => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
+
 const Header = () =>  (
   <Container>
     <Div1>
@@ -32,13 +36,13 @@ const Header = () =>  (
       </li>        
     </Div2>
       <Div3>
-        <SocialIcons href="https://google.com">
+        <SocialIcons onClick={() => openInNewTab("https://github.com/dxt99")}>
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons onClick={() => openInNewTab("https://www.linkedin.com/in/frederik-imanuel-louis-90668a202/")}>
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons onClick={() => openInNewTab("https://www.instagram.com/eriklouiss/")}>
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>
