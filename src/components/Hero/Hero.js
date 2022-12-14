@@ -9,15 +9,16 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Ayo Misa!
+          Ayo Ikut Misa!
         </SectionTitle>
         <SectionText>
-       text inspiratif
+        Matius 18:20: "Sebab di mana dua atau tiga orang berkumpul dalam nama-Ku, di situ Aku ada di tengah-tengah mereka." <br/> <br/>
+        Marilah kita kembali berkumpul di rumah Tuhan!
         </SectionText>
         <Button onClick={(e) => {
       e.preventDefault();
       window.location.href='#jadwal';
-      }}>Jadwal Misa</Button>
+      }}>Lihat Jadwal Misa</Button>
       </LeftSection>
     </Section>
   </>

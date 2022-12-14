@@ -31,7 +31,7 @@ const Header = () =>  (
       </li>        
       <li>
         <Link href="#about">
-          <NavLink>Contact</NavLink>
+          <NavLink>About</NavLink>
         </Link>
       </li>        
     </Div2>
